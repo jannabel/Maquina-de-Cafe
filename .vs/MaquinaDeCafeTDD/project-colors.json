@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ea4426f-10ca-4aa8-a304-c1fb1191bb8b": {
+      "ProjectGuid": "3ea4426f-10ca-4aa8-a304-c1fb1191bb8b",
+      "DisplayName": "MaquinaDeCafeTDD",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
