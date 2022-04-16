@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MaquinaDeCafeTDD
+﻿namespace MaquinaDeCafeTDD
 {
     internal class Cafetera
     {
@@ -14,23 +8,14 @@ namespace MaquinaDeCafeTDD
         {
             this.cantidadCafe = cantidadCafe;
         }
-        
-        public void setCantidadDeCafe(int param1)
-        {
-            this.cantidadCafe = param1;
-        }
 
-        public int getCantidadDeCafe()
-        {
-            return this.cantidadCafe;
-        } 
+        public void setCantidadDeCafe(int param1) { this.cantidadCafe = param1; }
+
+        public int getCantidadDeCafe() { return this.cantidadCafe; }
 
         public bool hasCafe(int cantidadCafe)
         {
-            if (this.cantidadCafe >= cantidadCafe)
-            {
-                return true;
-            }
+            if (this.cantidadCafe >= cantidadCafe) return true;
             return false;
         }
 
@@ -38,6 +23,5 @@ namespace MaquinaDeCafeTDD
         {
             this.cantidadCafe -= cantidadCafe;
         }
-
     }
 }

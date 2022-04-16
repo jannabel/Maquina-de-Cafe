@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MaquinaDeCafeTDD
+﻿namespace MaquinaDeCafeTDD
 {
     internal class Azucarero
     {
@@ -15,23 +9,13 @@ namespace MaquinaDeCafeTDD
             this.cantidadDeAzucar = cantidadDeAzucar;
         }
 
-        public void setCantidadDeAzucar(int param1)
-        {
-            cantidadDeAzucar = param1;
-        }
+        public void setCantidadDeAzucar(int param1) { cantidadDeAzucar = param1; }
 
-        public int getCantidadDeAzucar()
-        {
-            return cantidadDeAzucar;
-        }
+        public int getCantidadDeAzucar() { return cantidadDeAzucar; }
 
         public bool hasAzucar(int cantidadDeAzucar)
         {
-            if (this.cantidadDeAzucar >= cantidadDeAzucar)
-            {
-                return true;
-            }
-
+            if (this.cantidadDeAzucar >= cantidadDeAzucar) return true;
             return false;
         }
 

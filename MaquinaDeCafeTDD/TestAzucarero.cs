@@ -38,9 +38,5 @@ namespace MaquinaDeCafeTDD
             azuquero.giveAzucar(2);
             Assert.AreEqual(3, azuquero.getCantidadDeAzucar());
         }
-
-
-
-
     }
 }
